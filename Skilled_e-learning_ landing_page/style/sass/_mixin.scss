@@ -1,0 +1,11 @@
+@mixin gradientPinkOrange {
+    background: linear-gradient(to top, #f02aa6, #ff6f48);
+}
+
+@mixin gradientPinkBLue {
+    background: linear-gradient(to top, #4851ff, #f02aa6);
+}
+
+@mixin gradientBluePink {
+    background: linear-gradient(to top, #f02aa6, #4851ff);
+}

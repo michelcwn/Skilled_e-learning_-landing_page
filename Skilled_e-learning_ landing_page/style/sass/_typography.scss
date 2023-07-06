@@ -1,0 +1,45 @@
+.heading-XL {
+    font-size: 5.6rem;
+    line-height: 7rem;
+    font-weight: 800;
+
+    @media only screen and (max-width: $bp-desktop) {
+        font-size: 4.6rem;
+        line-height: 6rem;
+        font-weight: 800;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+        font-size: 3.2rem;
+        line-height: 4rem;
+        font-weight: 800;
+    }
+}
+
+.heading-L {
+    font-size: 4rem;
+    line-height: 5.1rem;
+    font-weight: 600;
+
+    @media only screen and (max-width: $bp-phone) {
+        font-size: 3.2rem;
+        line-height: 4rem;
+        font-weight: 800;
+    }
+
+    @media only screen and (max-width: $bp-iphone) {
+        font-weight: 600;
+    }
+}
+
+.heading-M {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+
+.heading-S {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}

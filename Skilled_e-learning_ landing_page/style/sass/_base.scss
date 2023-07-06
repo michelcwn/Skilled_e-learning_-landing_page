@@ -1,0 +1,46 @@
+//COLORS
+$color-metal: #666ca3;
+$color-gunmetal: #13183f;
+$color-grey: #83869a;
+$color-red: #f74780;
+$color-pink: #ffa7c3;
+$color-white: #ffffff;
+
+@font-face {
+    font-family: "Plus Jakarta";
+    src: url("assets/fonts/PlusJakartaSans-Italic-VariableFont_wght") format ("truetype"),
+        url("assets/fonts/PlusJakartaSans-VariableFont_wght") format ("truetype");
+}
+
+//RESPOSIVE
+$bp-desktop: 81.25em; //1300px
+$bp-tab: 60em; //950px
+$bp-ipad: 51em; //816px
+$bp-small: 37.5em; //600px
+$bp-phone: 28.125em; //450px
+$bp-iphone: 23.4375em; //375px
+$bp-very-small: 20em; //320px
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    font-family: "Plus Jakarta", sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
